@@ -14,9 +14,9 @@ def start_game():
     while guess != number:
         guess = int(input("Ваш варіант: "))
         if guess < number:
-            print("Загадане число більше.")
+            print(f"Загадане число більше за {{guess}}")
         elif guess > number:
-            print("Загадане число меньше.")
+            print(f"Загадане число меньше за {{guess}}.")
         tries += 1
 
     print("\nВітаємо, ви вгадали число!", number)
