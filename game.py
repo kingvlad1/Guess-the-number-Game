@@ -4,7 +4,7 @@ def start_game():
     print("\nЛаскаво просимо в гру 'Вгадай число'!")
     print("\nЯ загадав натуральне число від 1 до 100.")
     print("Спробуй вгадати його за мінімальну кількість спроб.\n")
-    print("Game by kingvlad. Ds: kingvlad#0001")
+    print("Game by kingvlad.")
 
     # загадуємо число
     number = random.randint(1, 100)
