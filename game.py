@@ -26,3 +26,5 @@ def start_game():
 # запускаєм игру
 if __name__ == '__main__':
     start_game()
+
+#end code
