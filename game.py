@@ -6,7 +6,7 @@ def start_game():
     print("Спробуй вгадати його за мінімальну кількість спроб.\n")
     print("Game by kingvlad.")
 
-    # загадуємо число
+    # бот агадує число
     number = random.randint(1, 100)
     guess = None
     tries = 0
